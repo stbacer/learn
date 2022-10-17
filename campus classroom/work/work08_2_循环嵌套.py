@@ -3,6 +3,6 @@ count = 0
 for x in range(0, 51):
     for y in range(0, 34):
         for z in range(0, 101):
-            if x + y + z == 100 and x + 3 * y + 0.5 * z == 100:
+            if x + y + z == 100 and 2 *　x + 3 * y + 0.5 * z == 100:
                 count += 1
                 print("买法" , count , "：公鸡" , x , "只，母鸡" , y , "只，小鸡" , z , "只。",sep="")
